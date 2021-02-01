@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-01T05:58:36.269Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="zQ5a3pUBq2OwvyiKimfH" version="14.1.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-01T06:54:27.492Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="kyCgsUiiaAPyzSCGhKnY" version="14.1.8" type="github" pages="2">
   <diagram id="HCSd3G9AquMhU1CA3Uai" name="第 1 页">
     <mxGraphModel dx="1278" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,39 +64,39 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4sFBBGD783bmF1bUUcpA-7" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ReplyHandler&amp;lt;T&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ eventBus EventBusImpl&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ context ContextInternal&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ result Promise&amp;lt;Message&amp;lt;T&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ timeoutID long&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ src boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ repliedAddress String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ trace Object&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="4sFBBGD783bmF1bUUcpA-1" vertex="1">
-          <mxGeometry x="860" y="95" width="440" height="260" as="geometry" />
+          <mxGeometry x="670" y="15" width="440" height="260" as="geometry" />
         </mxCell>
         <mxCell id="4sFBBGD783bmF1bUUcpA-8" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="4sFBBGD783bmF1bUUcpA-1" source="4sFBBGD783bmF1bUUcpA-7" target="4sFBBGD783bmF1bUUcpA-9" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1337.5" y="-90" as="sourcePoint" />
-            <mxPoint x="1447.5" y="-30" as="targetPoint" />
+            <mxPoint x="1127.5" y="-155" as="sourcePoint" />
+            <mxPoint x="1237.5" y="-95" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4sFBBGD783bmF1bUUcpA-9" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;HandlerRegistration&amp;lt;T&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ context ContextInternal&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ bus EventBusImpl&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ address String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ src boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ registered HandlerHolder&amp;lt;T&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ trace Object&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ synchronized void register&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;(String replyAddress,localOnly,Promise&amp;lt;Void&amp;gt; promise):void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="4sFBBGD783bmF1bUUcpA-1" vertex="1">
-          <mxGeometry x="1220" y="-300" width="455" height="270" as="geometry" />
+          <mxGeometry x="1010" y="-365" width="455" height="270" as="geometry" />
         </mxCell>
         <mxCell id="4sFBBGD783bmF1bUUcpA-10" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;HandlerHolder&amp;lt;T&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ context ContextInternal&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ handler HandlerRegistration&amp;lt;T&amp;gt;&lt;br&gt;+ replyhandler boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ localOnly boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ removed boolean&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="4sFBBGD783bmF1bUUcpA-1" vertex="1">
-          <mxGeometry x="1797.5" y="-290" width="420" height="260" as="geometry" />
+          <mxGeometry x="1587.5" y="-355" width="420" height="260" as="geometry" />
         </mxCell>
         <mxCell id="4sFBBGD783bmF1bUUcpA-11" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="4sFBBGD783bmF1bUUcpA-1" source="4sFBBGD783bmF1bUUcpA-9" target="4sFBBGD783bmF1bUUcpA-10" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1677.5" y="-350" as="sourcePoint" />
-            <mxPoint x="1837.5" y="-350" as="targetPoint" />
+            <mxPoint x="1467.5" y="-415" as="sourcePoint" />
+            <mxPoint x="1627.5" y="-415" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4sFBBGD783bmF1bUUcpA-13" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="4sFBBGD783bmF1bUUcpA-1" source="4sFBBGD783bmF1bUUcpA-10" target="4sFBBGD783bmF1bUUcpA-9" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1652.5" y="-150" as="sourcePoint" />
-            <mxPoint x="1817.5" y="-150" as="targetPoint" />
+            <mxPoint x="1442.5" y="-215" as="sourcePoint" />
+            <mxPoint x="1607.5" y="-215" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WCoLBVXBMhJnFBifu_gF-0" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;MessageConsumerImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ vertx Vertx&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ context ContextInternal&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ eventBus eventBusImpl&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ address String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ localOnly boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ handler&amp;nbsp; Handler&amp;lt;Message&amp;lt;T&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ completionHanddler&amp;nbsp; Handler&amp;lt;AsyncResult&amp;lt;Void&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ endHandler&amp;nbsp; Handler&amp;lt;Void&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ discardHandler Handler&amp;lt;Message&amp;lt;T&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp; pending Queue&amp;lt;Message&amp;lt;T&amp;gt;&amp;gt;(8)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ demand Long.MAX_VALUE&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ result Promise&amp;lt;Void&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="4sFBBGD783bmF1bUUcpA-1">
-          <mxGeometry x="1490" y="95" width="380" height="325" as="geometry" />
+          <mxGeometry x="1280" y="30" width="380" height="325" as="geometry" />
         </mxCell>
         <mxCell id="WCoLBVXBMhJnFBifu_gF-1" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="4sFBBGD783bmF1bUUcpA-1" source="WCoLBVXBMhJnFBifu_gF-0" target="4sFBBGD783bmF1bUUcpA-9">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1730" y="30" as="sourcePoint" />
-            <mxPoint x="1890" y="30" as="targetPoint" />
+            <mxPoint x="1520" y="-35" as="sourcePoint" />
+            <mxPoint x="1680" y="-35" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
