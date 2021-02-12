@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-08T07:25:15.519Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="mSsKw84nNh90nfSRqNNZ" version="14.2.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-12T07:36:25.533Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="WDg8oJPrqF9quafzgEpu" version="14.2.9" type="github" pages="3">
   <diagram id="HCSd3G9AquMhU1CA3Uai" name="第 1 页">
-    <mxGraphModel dx="1278" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2302" dy="1123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,7 +47,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zZrq8S496W9DHHa3cex0" name="EventBus">
-    <mxGraphModel dx="2331" dy="1814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3129" dy="2292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="4sFBBGD783bmF1bUUcpA-0" />
         <mxCell id="4sFBBGD783bmF1bUUcpA-1" parent="4sFBBGD783bmF1bUUcpA-0" />
@@ -105,32 +105,40 @@
         <mxCell id="WCoLBVXBMhJnFBifu_gF-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;InboundDeliveryContext&amp;lt;T&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ ctx ContextInternal&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ message MessageImpl&amp;lt;?,T&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ handler Handler&amp;lt;Message&amp;lt;T&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ iter Iterator&amp;lt;Handler&amp;lt;DeliveryContext&amp;gt;&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="4sFBBGD783bmF1bUUcpA-1" vertex="1">
           <mxGeometry x="620" y="170" width="230" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="hNsa3DwoQWbFLo8hF0mO-0" value="取数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4sFBBGD783bmF1bUUcpA-1">
+        <mxCell id="hNsa3DwoQWbFLo8hF0mO-0" value="取数" style="rounded=0;whiteSpace=wrap;html=1;" parent="4sFBBGD783bmF1bUUcpA-1" vertex="1">
           <mxGeometry x="-100" y="530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hNsa3DwoQWbFLo8hF0mO-1" value="数据源" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4sFBBGD783bmF1bUUcpA-1">
+        <mxCell id="hNsa3DwoQWbFLo8hF0mO-1" value="数据源" style="rounded=0;whiteSpace=wrap;html=1;" parent="4sFBBGD783bmF1bUUcpA-1" vertex="1">
           <mxGeometry x="110" y="530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hNsa3DwoQWbFLo8hF0mO-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4sFBBGD783bmF1bUUcpA-1" source="hNsa3DwoQWbFLo8hF0mO-2" target="hNsa3DwoQWbFLo8hF0mO-7">
+        <mxCell id="hNsa3DwoQWbFLo8hF0mO-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="4sFBBGD783bmF1bUUcpA-1" source="hNsa3DwoQWbFLo8hF0mO-2" target="hNsa3DwoQWbFLo8hF0mO-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hNsa3DwoQWbFLo8hF0mO-2" value="限定" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4sFBBGD783bmF1bUUcpA-1">
+        <mxCell id="hNsa3DwoQWbFLo8hF0mO-2" value="限定" style="rounded=0;whiteSpace=wrap;html=1;" parent="4sFBBGD783bmF1bUUcpA-1" vertex="1">
           <mxGeometry x="320" y="530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hNsa3DwoQWbFLo8hF0mO-3" value="分组" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4sFBBGD783bmF1bUUcpA-1">
+        <mxCell id="hNsa3DwoQWbFLo8hF0mO-3" value="分组" style="rounded=0;whiteSpace=wrap;html=1;" parent="4sFBBGD783bmF1bUUcpA-1" vertex="1">
           <mxGeometry x="500" y="530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hNsa3DwoQWbFLo8hF0mO-4" value="排序" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4sFBBGD783bmF1bUUcpA-1">
+        <mxCell id="hNsa3DwoQWbFLo8hF0mO-4" value="排序" style="rounded=0;whiteSpace=wrap;html=1;" parent="4sFBBGD783bmF1bUUcpA-1" vertex="1">
           <mxGeometry x="707" y="530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hNsa3DwoQWbFLo8hF0mO-5" value="截取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4sFBBGD783bmF1bUUcpA-1">
+        <mxCell id="hNsa3DwoQWbFLo8hF0mO-5" value="截取" style="rounded=0;whiteSpace=wrap;html=1;" parent="4sFBBGD783bmF1bUUcpA-1" vertex="1">
           <mxGeometry x="915" y="530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hNsa3DwoQWbFLo8hF0mO-7" value="= &amp;lt; &amp;gt;&amp;nbsp; &amp;gt;= &amp;lt;=&amp;nbsp;&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="4sFBBGD783bmF1bUUcpA-1">
+        <mxCell id="hNsa3DwoQWbFLo8hF0mO-7" value="= &amp;lt; &amp;gt;&amp;nbsp; &amp;gt;= &amp;lt;=&amp;nbsp;&amp;nbsp;" style="whiteSpace=wrap;html=1;" parent="4sFBBGD783bmF1bUUcpA-1" vertex="1">
           <mxGeometry x="210" y="690" width="120" height="60" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XF8JYl7nSYMhpQQQkGIZ" name="future&amp;promise">
+    <mxGraphModel dx="2302" dy="1123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="a765MM9MW8i8kPkXD7-c-0" />
+        <mxCell id="a765MM9MW8i8kPkXD7-c-1" parent="a765MM9MW8i8kPkXD7-c-0" />
       </root>
     </mxGraphModel>
   </diagram>
