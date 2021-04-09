@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-09T09:41:24.479Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="4_gccG8rHb1IFItZLVE8" version="14.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-09T09:45:33.887Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="jSA2_XDOURnR4t_l6afS" version="14.5.8" type="github">
   <diagram id="q67iRwnJ95usIE7rMWFx" name="第 1 页">
-    <mxGraphModel dx="1955" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2374" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -537,25 +537,25 @@
         </mxCell>
         <mxCell id="eMqY0ndDDdity-er9-4i-170" value="" style="endArrow=none;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="105" y="4500" as="sourcePoint" />
+            <mxPoint x="105" y="4700" as="sourcePoint" />
             <mxPoint x="105" y="3790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eMqY0ndDDdity-er9-4i-171" value="" style="endArrow=none;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="314.40999999999997" y="4510" as="sourcePoint" />
+            <mxPoint x="314" y="4730" as="sourcePoint" />
             <mxPoint x="314.40999999999997" y="3800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eMqY0ndDDdity-er9-4i-172" value="" style="endArrow=none;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="523.8199999999999" y="4509.999999999999" as="sourcePoint" />
+            <mxPoint x="524" y="4720" as="sourcePoint" />
             <mxPoint x="523.8199999999999" y="3800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eMqY0ndDDdity-er9-4i-173" value="" style="endArrow=none;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="734.9999999999998" y="4509.999999999999" as="sourcePoint" />
+            <mxPoint x="735" y="4730" as="sourcePoint" />
             <mxPoint x="734.9999999999998" y="3800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -615,6 +615,11 @@
         <mxCell id="eMqY0ndDDdity-er9-4i-185" value="未存在服务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="440" y="4060" width="80" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="eMqY0ndDDdity-er9-4i-216" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eMqY0ndDDdity-er9-4i-187">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="422" y="4389.999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="eMqY0ndDDdity-er9-4i-187" value="更改服务状态" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="372" y="4170" width="100" height="50" as="geometry" />
         </mxCell>
@@ -655,17 +660,90 @@
         <mxCell id="eMqY0ndDDdity-er9-4i-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eMqY0ndDDdity-er9-4i-197" target="eMqY0ndDDdity-er9-4i-187">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="eMqY0ndDDdity-er9-4i-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eMqY0ndDDdity-er9-4i-197" target="eMqY0ndDDdity-er9-4i-200">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="eMqY0ndDDdity-er9-4i-197" value="部署services" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="595" y="4330" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="eMqY0ndDDdity-er9-4i-199" value="Pod基础构建成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="530" y="4300" width="110" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="eMqY0ndDDdity-er9-4i-204" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eMqY0ndDDdity-er9-4i-200" target="eMqY0ndDDdity-er9-4i-197">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="715" y="4440" />
+              <mxPoint x="715" y="4355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMqY0ndDDdity-er9-4i-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eMqY0ndDDdity-er9-4i-200">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="645" y="4509.999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="eMqY0ndDDdity-er9-4i-200" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="610" y="4410" width="60" height="40" as="geometry" />
+          <mxGeometry x="615" y="4420" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eMqY0ndDDdity-er9-4i-202" value="可用性更新" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="442.5" y="4360" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eMqY0ndDDdity-er9-4i-205" value="失败重试" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="4410" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eMqY0ndDDdity-er9-4i-208" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eMqY0ndDDdity-er9-4i-207" target="eMqY0ndDDdity-er9-4i-187">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eMqY0ndDDdity-er9-4i-207" value="部署Ingress" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="595" y="4510" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eMqY0ndDDdity-er9-4i-209" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="eMqY0ndDDdity-er9-4i-211">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="645" y="4555.0599999999995" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMqY0ndDDdity-er9-4i-210" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eMqY0ndDDdity-er9-4i-211">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="695" y="4530.0599999999995" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="715" y="4615.06" />
+              <mxPoint x="715" y="4530.06" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMqY0ndDDdity-er9-4i-215" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eMqY0ndDDdity-er9-4i-211" target="eMqY0ndDDdity-er9-4i-213">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eMqY0ndDDdity-er9-4i-211" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="615" y="4595.06" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eMqY0ndDDdity-er9-4i-212" value="失败重试" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="4585.06" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eMqY0ndDDdity-er9-4i-218" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eMqY0ndDDdity-er9-4i-213" target="eMqY0ndDDdity-er9-4i-220">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="4704.999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMqY0ndDDdity-er9-4i-213" value="部署Ingress" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="595" y="4680" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eMqY0ndDDdity-er9-4i-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eMqY0ndDDdity-er9-4i-220" target="eMqY0ndDDdity-er9-4i-221">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eMqY0ndDDdity-er9-4i-220" value="服务生成" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="384" y="4390" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eMqY0ndDDdity-er9-4i-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eMqY0ndDDdity-er9-4i-221">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210.5" y="4489.999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMqY0ndDDdity-er9-4i-221" value="服务构建完成" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="161" y="4390" width="99" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eMqY0ndDDdity-er9-4i-224" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.or;" vertex="1" parent="1">
+          <mxGeometry x="193" y="4490" width="35" height="39" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
