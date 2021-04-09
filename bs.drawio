@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-09T12:36:29.607Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="hwP0gMoSGpkgjXoDiZ60" version="14.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-09T15:21:43.902Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="pUbZPLdsh-z14J1OPelm" version="14.5.8" type="github">
   <diagram id="q67iRwnJ95usIE7rMWFx" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -876,6 +876,12 @@
             <mxPoint x="430" y="5720" as="sourcePoint" />
             <mxPoint x="480" y="5670" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="eMqY0ndDDdity-er9-4i-271" value="租户管理程序" style="rounded=0;whiteSpace=wrap;html=1;fontSize=3;" vertex="1" parent="1">
+          <mxGeometry x="200" y="5630" width="388" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eMqY0ndDDdity-er9-4i-272" value="机构入驻平台" style="rounded=0;whiteSpace=wrap;html=1;fontSize=3;" vertex="1" parent="1">
+          <mxGeometry x="128" y="5700" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
