@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-09T09:16:03.905Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="G94BKjIy9d13gFg-J3la" version="14.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-09T09:41:24.479Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="4_gccG8rHb1IFItZLVE8" version="14.5.8" type="github">
   <diagram id="q67iRwnJ95usIE7rMWFx" name="第 1 页">
     <mxGraphModel dx="1955" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -663,6 +663,9 @@
         </mxCell>
         <mxCell id="eMqY0ndDDdity-er9-4i-200" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="610" y="4410" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eMqY0ndDDdity-er9-4i-202" value="可用性更新" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="442.5" y="4360" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
