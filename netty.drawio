@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-27T07:37:55.691Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="9zz4s4CNWcNmSKEK5vXg" version="14.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-27T08:09:36.850Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="Q-W8G0kH3cuSYRxohenr" version="14.6.6" type="github" pages="2">
   <diagram id="DDf6Si7hI6gckKC9rxQ4" name="NioEventLoop">
-    <mxGraphModel dx="2500" dy="2261" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1808" dy="1809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -108,7 +108,7 @@
         <mxCell id="XdHo_JYSF3nscPaMC1JQ-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;MultithreadEventLoopGroup&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ newChild(Executor, Object...): EventLoop&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
           <mxGeometry x="1375" y="440" width="320" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="XdHo_JYSF3nscPaMC1JQ-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;MultithreadEventExecutorGroup&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+        <mxCell id="XdHo_JYSF3nscPaMC1JQ-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;MultithreadEventExecutorGroup&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ newChild(Executor, Object...): EventExecutor&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
           <mxGeometry x="1380" y="170" width="310" height="110" as="geometry" />
         </mxCell>
         <mxCell id="XdHo_JYSF3nscPaMC1JQ-5" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XdHo_JYSF3nscPaMC1JQ-2" target="XdHo_JYSF3nscPaMC1JQ-4">
