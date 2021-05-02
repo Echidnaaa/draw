@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-22T13:38:38.931Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="7A7paDzy2mA9D2wMupLf" version="14.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-02T13:49:45.067Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="HCoeS4lRt9OfpHNG3-H_" version="14.6.6" type="github" pages="2">
   <diagram id="q67iRwnJ95usIE7rMWFx" name="第 1 页">
-    <mxGraphModel dx="1995" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2213" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2315,6 +2315,32 @@
         </mxCell>
         <mxCell id="lcwvlLyvvLyvmzNwPTOK-20" value="Nacos状态检查" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1370" y="2910" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2RwOGBPsWL0Fjvaytf0Z" name="第 2 页">
+    <mxGraphModel dx="792" dy="427" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="w_beVp3tDmczPjjgM9ON-0" />
+        <mxCell id="w_beVp3tDmczPjjgM9ON-1" parent="w_beVp3tDmczPjjgM9ON-0" />
+        <mxCell id="w_beVp3tDmczPjjgM9ON-8" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.dashedArrowlessEdge;fillColor=#000000;aspect=fixed;" vertex="1" parent="w_beVp3tDmczPjjgM9ON-1">
+          <mxGeometry x="164.1" y="325.8" width="31.6" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="w_beVp3tDmczPjjgM9ON-9" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.dashedArrowlessEdge;fillColor=#000000;aspect=fixed;" vertex="1" parent="w_beVp3tDmczPjjgM9ON-1">
+          <mxGeometry x="206" y="351" width="31.6" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="w_beVp3tDmczPjjgM9ON-10" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.dashedEdge;fillColor=#000000;aspect=fixed;" vertex="1" parent="w_beVp3tDmczPjjgM9ON-1">
+          <mxGeometry x="244" y="351" width="31.6" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="w_beVp3tDmczPjjgM9ON-11" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.application;fillColor=#4286c5;strokeColor=#57A2D8;aspect=fixed;" vertex="1" parent="w_beVp3tDmczPjjgM9ON-1">
+          <mxGeometry x="268" y="288" width="62" height="68.8" as="geometry" />
+        </mxCell>
+        <mxCell id="w_beVp3tDmczPjjgM9ON-12" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.cloudfront;fillColor=#ECECEC;strokeColor=#5E5E5E;aspect=fixed;" vertex="1" parent="w_beVp3tDmczPjjgM9ON-1">
+          <mxGeometry x="112" y="234.52" width="55.8" height="91.28" as="geometry" />
+        </mxCell>
+        <mxCell id="w_beVp3tDmczPjjgM9ON-13" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.rds;fillColor=#ECECEC;strokeColor=#5E5E5E;aspect=fixed;" vertex="1" parent="w_beVp3tDmczPjjgM9ON-1">
+          <mxGeometry x="279" y="399" width="57" height="61.63" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
