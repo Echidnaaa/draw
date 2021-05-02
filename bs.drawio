@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-02T14:28:28.522Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="MygkAgTR4AT5KTV7Yvon" version="14.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-02T14:31:04.688Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="btC6_Pyo6MnCYV8qYATS" version="14.6.6" type="github" pages="2">
   <diagram id="q67iRwnJ95usIE7rMWFx" name="第 1 页">
     <mxGraphModel dx="2213" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2334,7 +2334,7 @@
           <mxGeometry x="244" y="351" width="31.6" height="18" as="geometry" />
         </mxCell>
         <mxCell id="w_beVp3tDmczPjjgM9ON-11" value="后端" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.application;fillColor=#4286c5;strokeColor=#57A2D8;aspect=fixed;" vertex="1" parent="w_beVp3tDmczPjjgM9ON-1">
-          <mxGeometry x="268" y="288" width="62" height="68.8" as="geometry" />
+          <mxGeometry x="263" y="290" width="62" height="68.8" as="geometry" />
         </mxCell>
         <mxCell id="w_beVp3tDmczPjjgM9ON-12" value="前端" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.cloudfront;fillColor=#ECECEC;strokeColor=#5E5E5E;aspect=fixed;" vertex="1" parent="w_beVp3tDmczPjjgM9ON-1">
           <mxGeometry x="112" y="234.52" width="55.8" height="91.28" as="geometry" />
@@ -2361,7 +2361,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w_beVp3tDmczPjjgM9ON-43" value="获取服务监控" style="edgeStyle=isometricEdgeStyle;endArrow=none;html=1;" edge="1" parent="w_beVp3tDmczPjjgM9ON-1" source="w_beVp3tDmczPjjgM9ON-11" target="w_beVp3tDmczPjjgM9ON-13">
+        <mxCell id="w_beVp3tDmczPjjgM9ON-43" value="构建实例任务" style="edgeStyle=isometricEdgeStyle;endArrow=none;html=1;" edge="1" parent="w_beVp3tDmczPjjgM9ON-1" source="w_beVp3tDmczPjjgM9ON-11" target="w_beVp3tDmczPjjgM9ON-13">
           <mxGeometry x="0.1169" y="28" width="50" height="100" relative="1" as="geometry">
             <mxPoint x="288.8" y="281.63" as="sourcePoint" />
             <mxPoint x="338.8" y="181.63" as="targetPoint" />
@@ -2393,9 +2393,10 @@
           <mxGeometry width="50" height="100" relative="1" as="geometry">
             <mxPoint x="291.8" y="469" as="sourcePoint" />
             <mxPoint x="341.8" y="369" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w_beVp3tDmczPjjgM9ON-50" value="Kubernetes Node" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.snapshot;fillColor=#4286c5;strokeColor=#57A2D8;aspect=fixed;rounded=0;glass=0;sketch=0;" vertex="1" parent="w_beVp3tDmczPjjgM9ON-1">
+        <mxCell id="w_beVp3tDmczPjjgM9ON-50" value="Kubernetes Pod" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.snapshot;fillColor=#4286c5;strokeColor=#57A2D8;aspect=fixed;rounded=0;glass=0;sketch=0;" vertex="1" parent="w_beVp3tDmczPjjgM9ON-1">
           <mxGeometry x="554" y="374" width="62.87" height="41" as="geometry" />
         </mxCell>
         <mxCell id="w_beVp3tDmczPjjgM9ON-51" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.snapshot;fillColor=#4286c5;strokeColor=#57A2D8;aspect=fixed;rounded=0;glass=0;sketch=0;" vertex="1" parent="w_beVp3tDmczPjjgM9ON-1">
@@ -2410,12 +2411,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="w_beVp3tDmczPjjgM9ON-55" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w_beVp3tDmczPjjgM9ON-54">
+        <mxCell id="w_beVp3tDmczPjjgM9ON-55" value="服务注册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w_beVp3tDmczPjjgM9ON-54">
           <mxGeometry x="0.3627" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-14" y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w_beVp3tDmczPjjgM9ON-59" value="isometric edge" style="edgeStyle=isometricEdgeStyle;endArrow=none;html=1;" edge="1" parent="w_beVp3tDmczPjjgM9ON-1" source="w_beVp3tDmczPjjgM9ON-46" target="w_beVp3tDmczPjjgM9ON-17">
+        <mxCell id="w_beVp3tDmczPjjgM9ON-59" value="Pod监控" style="edgeStyle=isometricEdgeStyle;endArrow=none;html=1;" edge="1" parent="w_beVp3tDmczPjjgM9ON-1" source="w_beVp3tDmczPjjgM9ON-46" target="w_beVp3tDmczPjjgM9ON-17">
           <mxGeometry x="-0.1967" y="-32" width="50" height="100" relative="1" as="geometry">
             <mxPoint x="369" y="326" as="sourcePoint" />
             <mxPoint x="419" y="226" as="targetPoint" />
