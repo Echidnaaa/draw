@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-02T14:50:12.506Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="ozSE05ua9fD76kHuwQ8G" version="14.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-02T14:54:13.414Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="sYHs1afJKDQRkOHNX_H-" version="14.6.6" type="github" pages="2">
   <diagram id="q67iRwnJ95usIE7rMWFx" name="第 1 页">
     <mxGraphModel dx="2012" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2320,7 +2320,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2RwOGBPsWL0Fjvaytf0Z" name="第 2 页">
-    <mxGraphModel dx="677" dy="442" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="892" dy="374" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="w_beVp3tDmczPjjgM9ON-0" />
         <mxCell id="w_beVp3tDmczPjjgM9ON-1" parent="w_beVp3tDmczPjjgM9ON-0" />
@@ -2425,7 +2425,7 @@
           <mxGeometry x="237.6" y="380" width="118" height="74" as="geometry" />
         </mxCell>
         <mxCell id="w_beVp3tDmczPjjgM9ON-64" value="&lt;font color=&quot;#666666&quot;&gt;任务状态&lt;br&gt;任务脚本&lt;br&gt;实例状态&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="w_beVp3tDmczPjjgM9ON-1">
-          <mxGeometry x="267.6" y="69" width="58" height="46" as="geometry" />
+          <mxGeometry x="212.5" y="119.4" width="58" height="46" as="geometry" />
         </mxCell>
         <mxCell id="w_beVp3tDmczPjjgM9ON-65" value="&lt;font color=&quot;#666666&quot;&gt;③进行pod构建&lt;br&gt;拉取镜像&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="w_beVp3tDmczPjjgM9ON-1">
           <mxGeometry x="378.75" y="454" width="90" height="32" as="geometry" />
