@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-02T14:31:04.688Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="btC6_Pyo6MnCYV8qYATS" version="14.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-02T14:45:20.565Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="1w3XYZUvFYXzntXOnEpk" version="14.6.6" type="github" pages="2">
   <diagram id="q67iRwnJ95usIE7rMWFx" name="第 1 页">
     <mxGraphModel dx="2213" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2320,7 +2320,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2RwOGBPsWL0Fjvaytf0Z" name="第 2 页">
-    <mxGraphModel dx="792" dy="427" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="956" dy="516" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="w_beVp3tDmczPjjgM9ON-0" />
         <mxCell id="w_beVp3tDmczPjjgM9ON-1" parent="w_beVp3tDmczPjjgM9ON-0" />
@@ -2348,9 +2348,6 @@
         <mxCell id="w_beVp3tDmczPjjgM9ON-21" value="Nacos" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.instance;fillColor=#ECECEC;strokeColor=#5E5E5E;aspect=fixed;" vertex="1" parent="w_beVp3tDmczPjjgM9ON-1">
           <mxGeometry x="594" y="253.68" width="60" height="47.32" as="geometry" />
         </mxCell>
-        <mxCell id="w_beVp3tDmczPjjgM9ON-38" value="Kubernetes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="w_beVp3tDmczPjjgM9ON-1">
-          <mxGeometry x="254" y="551" width="71" height="18" as="geometry" />
-        </mxCell>
         <mxCell id="w_beVp3tDmczPjjgM9ON-39" value="业务监控" style="edgeStyle=isometricEdgeStyle;endArrow=none;html=1;elbow=vertical;" edge="1" parent="w_beVp3tDmczPjjgM9ON-1" source="w_beVp3tDmczPjjgM9ON-21" target="w_beVp3tDmczPjjgM9ON-17">
           <mxGeometry x="-0.0931" y="-19" width="50" height="100" relative="1" as="geometry">
             <mxPoint x="646.8" y="319" as="sourcePoint" />
@@ -2361,7 +2358,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w_beVp3tDmczPjjgM9ON-43" value="构建实例任务" style="edgeStyle=isometricEdgeStyle;endArrow=none;html=1;" edge="1" parent="w_beVp3tDmczPjjgM9ON-1" source="w_beVp3tDmczPjjgM9ON-11" target="w_beVp3tDmczPjjgM9ON-13">
+        <mxCell id="w_beVp3tDmczPjjgM9ON-43" value="" style="edgeStyle=isometricEdgeStyle;endArrow=none;html=1;" edge="1" parent="w_beVp3tDmczPjjgM9ON-1" source="w_beVp3tDmczPjjgM9ON-11" target="w_beVp3tDmczPjjgM9ON-13">
           <mxGeometry x="0.1169" y="28" width="50" height="100" relative="1" as="geometry">
             <mxPoint x="288.8" y="281.63" as="sourcePoint" />
             <mxPoint x="338.8" y="181.63" as="targetPoint" />
@@ -2407,13 +2404,8 @@
             <mxPoint x="646" y="423" as="sourcePoint" />
             <mxPoint x="696" y="323" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="561" y="326" />
+              <mxPoint x="575" y="323" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="w_beVp3tDmczPjjgM9ON-55" value="服务注册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w_beVp3tDmczPjjgM9ON-54">
-          <mxGeometry x="0.3627" y="2" relative="1" as="geometry">
-            <mxPoint x="-14" y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="w_beVp3tDmczPjjgM9ON-59" value="Pod监控" style="edgeStyle=isometricEdgeStyle;endArrow=none;html=1;" edge="1" parent="w_beVp3tDmczPjjgM9ON-1" source="w_beVp3tDmczPjjgM9ON-46" target="w_beVp3tDmczPjjgM9ON-17">
@@ -2425,6 +2417,24 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="w_beVp3tDmczPjjgM9ON-61" value="&lt;p&gt;&lt;font color=&quot;#666666&quot; style=&quot;font-size: 11px&quot;&gt;①HTTP调用实例开启接口&lt;/font&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="w_beVp3tDmczPjjgM9ON-1">
+          <mxGeometry x="42" y="335" width="149" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="w_beVp3tDmczPjjgM9ON-62" value="&lt;font color=&quot;#666666&quot;&gt;②接受实例开启命令&lt;br&gt;获取构建脚本&lt;br&gt;创建构建任务&lt;br&gt;调用API触发构建&lt;br&gt;更新任务状态&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="w_beVp3tDmczPjjgM9ON-1">
+          <mxGeometry x="237.6" y="380" width="118" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="w_beVp3tDmczPjjgM9ON-64" value="&lt;font color=&quot;#666666&quot;&gt;任务状态&lt;br&gt;任务脚本&lt;br&gt;实例状态&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="w_beVp3tDmczPjjgM9ON-1">
+          <mxGeometry x="267.6" y="69" width="58" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="w_beVp3tDmczPjjgM9ON-65" value="&lt;font color=&quot;#666666&quot;&gt;③进行pod构建&lt;br&gt;拉取镜像&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="w_beVp3tDmczPjjgM9ON-1">
+          <mxGeometry x="378.75" y="454" width="90" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="w_beVp3tDmczPjjgM9ON-66" value="&lt;font color=&quot;#666666&quot;&gt;④Pod运行成功&lt;br&gt;向Nacos注册&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="w_beVp3tDmczPjjgM9ON-1">
+          <mxGeometry x="540.44" y="438" width="91" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="w_beVp3tDmczPjjgM9ON-67" value="监控实例状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="w_beVp3tDmczPjjgM9ON-1">
+          <mxGeometry x="414" y="83" width="82" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
