@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-28T08:10:40.496Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="xOiBokQVsKcoWs5GwOKq" version="14.7.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-28T08:35:01.300Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="Q4V-m8O1NUGCZOxTdXJa" version="14.7.0" type="github" pages="3">
   <diagram id="q67iRwnJ95usIE7rMWFx" name="第 1 页">
     <mxGraphModel dx="2249" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2521,6 +2521,18 @@
       <root>
         <mxCell id="IB0SUtrvDPSZGxZ3uloU-0" />
         <mxCell id="IB0SUtrvDPSZGxZ3uloU-1" parent="IB0SUtrvDPSZGxZ3uloU-0" />
+        <mxCell id="IB0SUtrvDPSZGxZ3uloU-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;IsdStore&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="IB0SUtrvDPSZGxZ3uloU-1">
+          <mxGeometry x="176" y="416" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IB0SUtrvDPSZGxZ3uloU-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Vendor&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="IB0SUtrvDPSZGxZ3uloU-1">
+          <mxGeometry x="160" y="288" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IB0SUtrvDPSZGxZ3uloU-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;IsdCar&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="IB0SUtrvDPSZGxZ3uloU-1">
+          <mxGeometry x="192" y="640" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IB0SUtrvDPSZGxZ3uloU-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;IsdCommentLabel&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="IB0SUtrvDPSZGxZ3uloU-1">
+          <mxGeometry x="368" y="544" width="160" height="86" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
