@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2021-05-31T11:14:53.989Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" version="14.7.2" etag="2_5CdctHVZdhFgTpVZt7" type="github"><diagram id="86M54Zdc4KKlk3HMwRWE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-31T11:38:51.805Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="JVeWYzTqsR-6SVtSmXj_" version="14.7.2" type="github">
+  <diagram id="86M54Zdc4KKlk3HMwRWE" name="第 1 页">
+    <mxGraphModel dx="856" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1q7IrHJcRKKRbDeTo753-1" value="标签计算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1q7IrHJcRKKRbDeTo753-2" value="获取门店信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1q7IrHJcRKKRbDeTo753-3" value="基础信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="130" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1q7IrHJcRKKRbDeTo753-4" value="额外信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="180" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1q7IrHJcRKKRbDeTo753-5" value="供应商门店&lt;br&gt;信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="230" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1q7IrHJcRKKRbDeTo753-8" value="pms" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="200" width="74" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1q7IrHJcRKKRbDeTo753-9" value="直连&lt;br&gt;vendorID&amp;lt;3w" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="140" width="76" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
