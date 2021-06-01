@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-01T11:07:02.736Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="q17b3cl1cQpDisPAmgAF" version="14.7.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-01T12:17:15.581Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="Os0xjOAsTVfVSokwtcCf" version="14.7.3" type="github" pages="2">
   <diagram id="86M54Zdc4KKlk3HMwRWE" name="第 1 页">
     <mxGraphModel dx="1422" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -193,7 +193,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dheDjm8__-StCTbA1Qz6" name="PrepayNotify">
-    <mxGraphModel dx="1422" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1512" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="6XB82AaUIucmRcIwyx3f-0" />
         <mxCell id="6XB82AaUIucmRcIwyx3f-1" parent="6XB82AaUIucmRcIwyx3f-0" />
@@ -220,6 +220,80 @@
         </mxCell>
         <mxCell id="6XB82AaUIucmRcIwyx3f-9" value="ack true" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
           <mxGeometry x="550" y="125" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-11" value="获取prepay" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="195" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-13" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6XB82AaUIucmRcIwyx3f-1" source="6XB82AaUIucmRcIwyx3f-12" target="6XB82AaUIucmRcIwyx3f-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-12" value="已发起授权&lt;br&gt;已冻结&lt;br&gt;已扣款" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="370" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-20" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6XB82AaUIucmRcIwyx3f-1" source="6XB82AaUIucmRcIwyx3f-14" target="6XB82AaUIucmRcIwyx3f-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="255" y="420" />
+              <mxPoint x="510" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-21" value="else" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6XB82AaUIucmRcIwyx3f-20">
+          <mxGeometry x="0.0492" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-22" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6XB82AaUIucmRcIwyx3f-1" source="6XB82AaUIucmRcIwyx3f-14" target="6XB82AaUIucmRcIwyx3f-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-23" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6XB82AaUIucmRcIwyx3f-1" source="6XB82AaUIucmRcIwyx3f-14" target="6XB82AaUIucmRcIwyx3f-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-24" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6XB82AaUIucmRcIwyx3f-1" source="6XB82AaUIucmRcIwyx3f-14" target="6XB82AaUIucmRcIwyx3f-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="255" y="420" />
+              <mxPoint x="20" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-14" value="获取order" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="195" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-26" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6XB82AaUIucmRcIwyx3f-1" source="6XB82AaUIucmRcIwyx3f-15" target="6XB82AaUIucmRcIwyx3f-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-27" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;PrepayNotify&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6XB82AaUIucmRcIwyx3f-26">
+          <mxGeometry x="0.2444" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-15" value="授权违章押金6/租车押金5" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-40" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-29" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6XB82AaUIucmRcIwyx3f-1" source="6XB82AaUIucmRcIwyx3f-16" target="6XB82AaUIucmRcIwyx3f-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-16" value="扫码后付租车押金20/sm后违章押金21/扫码后付租车费和押金22" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="120" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-17" value="租车预授权/租车担保" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="490" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-18" value="租车担保3/违章担保4" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="270" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-19" value="租车预授权1/违章预授权2/扫码付租车7/扫码付违章8/pms补款11" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="410" y="450" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-25" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-40" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-28" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="120" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-30" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;PrepayNotifyQR&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="120" y="540" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
