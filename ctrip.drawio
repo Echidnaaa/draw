@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-01T01:34:46.772Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="zSCJHWZMP4YirWQeOrqF" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-01T07:51:28.575Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="X6zVNMZov8v3u0spBGVg" version="14.7.3" type="github" pages="2">
   <diagram id="86M54Zdc4KKlk3HMwRWE" name="第 1 页">
     <mxGraphModel dx="1422" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -170,6 +170,53 @@
         </mxCell>
         <mxCell id="G9yLi9A-UWY0JcPAgX2z-34" value="operationDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="1137" y="195" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G9yLi9A-UWY0JcPAgX2z-36" value="&lt;a href=&quot;http://paas.ctripcorp.com/#/app/100015877/detail/info&quot; class=&quot;cd-text-blk-pri ng-binding ng-scope&quot; style=&quot;box-sizing: border-box ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; font-size: 14px ; line-height: 2 ; margin: 0px ; padding: 0px ; outline: 0px ; background-color: rgb(250 , 250 , 250) ; vertical-align: middle ; text-align: left ; color: rgba(0 , 0 , 0 , 0.87)&quot;&gt;car-api-finance-service&lt;/a&gt;&lt;br&gt;财务api" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="265" y="690" width="174" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G9yLi9A-UWY0JcPAgX2z-37" value="&lt;a href=&quot;http://paas.ctripcorp.com/#/app/100028990/detail/info&quot; class=&quot;cd-text-blk-pri ng-binding ng-scope&quot; style=&quot;box-sizing: border-box ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; font-size: 14px ; line-height: 2 ; margin: 0px ; padding: 0px ; outline: 0px ; background-color: rgba(0 , 0 , 0 , 0.03) ; vertical-align: middle ; text-align: left ; color: rgba(0 , 0 , 0 , 0.87)&quot;&gt;car-api-infoservice-service&lt;/a&gt;&lt;br&gt;信息资源整合" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="681" y="762" width="199" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G9yLi9A-UWY0JcPAgX2z-39" value="&lt;a href=&quot;http://paas.ctripcorp.com/#/app/100015793/detail/info&quot; class=&quot;cd-text-blk-pri ng-binding ng-scope&quot; style=&quot;box-sizing: border-box ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; font-size: 14px ; line-height: 2 ; margin: 0px ; padding: 0px ; outline: 0px ; background-color: rgb(250 , 250 , 250) ; vertical-align: middle ; text-align: left ; color: rgba(0 , 0 , 0 , 0.87)&quot;&gt;car-api-order-service&lt;/a&gt;&lt;br&gt;订单api" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="259" y="778" width="201" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G9yLi9A-UWY0JcPAgX2z-41" value="&lt;a href=&quot;http://paas.ctripcorp.com/#/app/100030922/detail/info&quot; class=&quot;cd-text-blk-pri ng-binding ng-scope&quot; style=&quot;box-sizing: border-box ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; font-size: 14px ; line-height: 2 ; margin: 0px ; padding: 0px ; outline: 0px ; background-color: rgb(250 , 250 , 250) ; vertical-align: middle ; text-align: left ; color: rgba(0 , 0 , 0 , 0.87)&quot;&gt;car-application-log-service&lt;/a&gt;&lt;br&gt;前端日志" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="238" y="1060" width="206" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G9yLi9A-UWY0JcPAgX2z-43" value="&lt;a href=&quot;http://paas.ctripcorp.com/#/app/100016495/detail/info&quot; class=&quot;cd-text-blk-pri ng-binding ng-scope&quot; style=&quot;box-sizing: border-box ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; font-size: 14px ; line-height: 2 ; margin: 0px ; padding: 0px ; outline: 0px ; background-color: rgb(250 , 250 , 250) ; vertical-align: middle ; text-align: left ; color: rgba(0 , 0 , 0 , 0.87)&quot;&gt;car-bicar-job&lt;/a&gt;&lt;br&gt;神盾项目" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="697" y="1038" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G9yLi9A-UWY0JcPAgX2z-45" value="&lt;a href=&quot;http://paas.ctripcorp.com/#/app/100016698/detail/info&quot; class=&quot;cd-text-blk-pri ng-binding ng-scope&quot; style=&quot;box-sizing: border-box ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; font-size: 14px ; line-height: 2 ; margin: 0px ; padding: 0px ; outline: 0px ; background-color: rgb(250 , 250 , 250) ; vertical-align: middle ; text-align: left ; color: rgba(0 , 0 , 0 , 0.87)&quot;&gt;car-butler-service&lt;/a&gt;&lt;br&gt;im项目" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="463" y="992" width="173" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dheDjm8__-StCTbA1Qz6" name="PrepayNotify">
+    <mxGraphModel dx="844" dy="324" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-0" />
+        <mxCell id="6XB82AaUIucmRcIwyx3f-1" parent="6XB82AaUIucmRcIwyx3f-0" />
+        <mxCell id="6XB82AaUIucmRcIwyx3f-2" value="msg" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="210" y="30" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-7" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6XB82AaUIucmRcIwyx3f-1" source="6XB82AaUIucmRcIwyx3f-3" target="6XB82AaUIucmRcIwyx3f-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-3" value="检查Supplement" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="195" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-4" value="字段异常" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="380" y="125" width="64" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-5" value="email" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="460" y="110" width="64" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-6" value="processlog" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="460" y="150" width="64" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-8" value="split(;)！=2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="310" y="120" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
