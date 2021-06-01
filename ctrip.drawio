@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-01T12:17:15.581Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="Os0xjOAsTVfVSokwtcCf" version="14.7.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-01T12:32:33.328Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="kBeK_T4NgnTSW4Kbyq5h" version="14.7.3" type="github" pages="2">
   <diagram id="86M54Zdc4KKlk3HMwRWE" name="第 1 页">
     <mxGraphModel dx="1422" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -193,7 +193,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dheDjm8__-StCTbA1Qz6" name="PrepayNotify">
-    <mxGraphModel dx="1512" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1457" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="6XB82AaUIucmRcIwyx3f-0" />
         <mxCell id="6XB82AaUIucmRcIwyx3f-1" parent="6XB82AaUIucmRcIwyx3f-0" />
@@ -268,7 +268,7 @@
             <mxPoint x="-1" y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6XB82AaUIucmRcIwyx3f-15" value="授权违章押金6/租车押金5" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+        <mxCell id="6XB82AaUIucmRcIwyx3f-15" value="授权之违章押金6/&lt;br&gt;授权之租车押金5" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
           <mxGeometry x="-40" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6XB82AaUIucmRcIwyx3f-29" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6XB82AaUIucmRcIwyx3f-1" source="6XB82AaUIucmRcIwyx3f-16" target="6XB82AaUIucmRcIwyx3f-28">
@@ -286,7 +286,7 @@
         <mxCell id="6XB82AaUIucmRcIwyx3f-19" value="租车预授权1/违章预授权2/扫码付租车7/扫码付违章8/pms补款11" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
           <mxGeometry x="410" y="450" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6XB82AaUIucmRcIwyx3f-25" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+        <mxCell id="6XB82AaUIucmRcIwyx3f-25" value="数据加载" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
           <mxGeometry x="-40" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6XB82AaUIucmRcIwyx3f-28" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
@@ -294,6 +294,12 @@
         </mxCell>
         <mxCell id="6XB82AaUIucmRcIwyx3f-30" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;PrepayNotifyQR&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
           <mxGeometry x="120" y="540" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-32" value="人工订单&lt;br&gt;qconfig-&lt;span style=&quot;color: rgb(23 , 43 , 77) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif ; font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;100008267&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;IgnoreOrders&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-200" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-33" value="租车授权信息+&lt;br&gt;订单信息回调" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-200" y="645" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
