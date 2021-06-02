@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-02T01:29:55.711Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="BH9x96_Yx4XpegsF9ph4" version="14.7.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-02T02:14:11.590Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="lJk8Ah4EZKn3VeImgvCm" version="14.7.3" type="github" pages="2">
   <diagram id="86M54Zdc4KKlk3HMwRWE" name="第 1 页">
     <mxGraphModel dx="1422" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -193,7 +193,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dheDjm8__-StCTbA1Qz6" name="PrepayNotify">
-    <mxGraphModel dx="1285" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1330" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="6XB82AaUIucmRcIwyx3f-0" />
         <mxCell id="6XB82AaUIucmRcIwyx3f-1" parent="6XB82AaUIucmRcIwyx3f-0" />
@@ -278,7 +278,7 @@
           <mxGeometry x="120" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6XB82AaUIucmRcIwyx3f-17" value="租车预授权/租车担保" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
-          <mxGeometry x="490" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="580" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6XB82AaUIucmRcIwyx3f-18" value="租车担保3/违章担保4" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
           <mxGeometry x="270" y="450" width="120" height="60" as="geometry" />
@@ -369,6 +369,36 @@
         </mxCell>
         <mxCell id="6XB82AaUIucmRcIwyx3f-55" value="不是新逻辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
           <mxGeometry x="-453" y="1100" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-56" value="计算总额" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-430" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-59" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6XB82AaUIucmRcIwyx3f-1" source="6XB82AaUIucmRcIwyx3f-57" target="6XB82AaUIucmRcIwyx3f-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-57" value="转扣/解冻" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-430" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-58" value="PrepayNotifyVC" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-610" y="1315" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-60" value="失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-480" y="1310" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-63" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6XB82AaUIucmRcIwyx3f-1" source="6XB82AaUIucmRcIwyx3f-61" target="6XB82AaUIucmRcIwyx3f-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-65" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6XB82AaUIucmRcIwyx3f-1" source="6XB82AaUIucmRcIwyx3f-61" target="6XB82AaUIucmRcIwyx3f-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-61" value="转扣结算" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-430" y="1380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-62" value="更新预授权表信息" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-610" y="1370" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-64" value="添加结算记录" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-610" y="1420" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
