@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-02T06:13:23.419Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="Bhal34YZvOuf0cuMtFAa" version="14.7.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-02T06:27:02.843Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="yXbywjNmVNtbBrqcKU8m" version="14.7.3" type="github" pages="2">
   <diagram id="86M54Zdc4KKlk3HMwRWE" name="第 1 页">
     <mxGraphModel dx="1422" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -193,7 +193,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dheDjm8__-StCTbA1Qz6" name="PrepayNotify">
-    <mxGraphModel dx="4317" dy="1107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3552" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="6XB82AaUIucmRcIwyx3f-0" />
         <mxCell id="6XB82AaUIucmRcIwyx3f-1" parent="6XB82AaUIucmRcIwyx3f-0" />
@@ -307,6 +307,14 @@
         </mxCell>
         <mxCell id="6XB82AaUIucmRcIwyx3f-25" value="数据加载" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
           <mxGeometry x="-890" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-129" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6XB82AaUIucmRcIwyx3f-1" source="6XB82AaUIucmRcIwyx3f-28" target="6XB82AaUIucmRcIwyx3f-128">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="690" />
+              <mxPoint x="-40" y="690" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="6XB82AaUIucmRcIwyx3f-28" value="数据加载" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
           <mxGeometry x="120" y="600" width="120" height="60" as="geometry" />
@@ -472,7 +480,7 @@
         <mxCell id="6XB82AaUIucmRcIwyx3f-77" value="授权之违章押金" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
           <mxGeometry x="-970" y="850" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6XB82AaUIucmRcIwyx3f-78" value="更新租车授权信息的扣车损金额" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+        <mxCell id="6XB82AaUIucmRcIwyx3f-78" value="更新租车授权信息的扣违章金额" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
           <mxGeometry x="-970" y="940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6XB82AaUIucmRcIwyx3f-81" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6XB82AaUIucmRcIwyx3f-1" source="6XB82AaUIucmRcIwyx3f-79" target="6XB82AaUIucmRcIwyx3f-80">
@@ -598,7 +606,7 @@
         <mxCell id="6XB82AaUIucmRcIwyx3f-124" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6XB82AaUIucmRcIwyx3f-1" source="6XB82AaUIucmRcIwyx3f-120" target="6XB82AaUIucmRcIwyx3f-123">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6XB82AaUIucmRcIwyx3f-120" value="更新租车授权信息的扣车损金额" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+        <mxCell id="6XB82AaUIucmRcIwyx3f-120" value="更新租车授权信息的扣违章金额" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
           <mxGeometry x="-440" y="940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6XB82AaUIucmRcIwyx3f-123" value="计算总额&lt;br&gt;=违章押金+etc押金-损失费" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
@@ -609,6 +617,36 @@
         </mxCell>
         <mxCell id="6XB82AaUIucmRcIwyx3f-126" value="租车授权信息+&lt;br&gt;订单信息回调" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
           <mxGeometry x="-26.75" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-128" value="信用卡授权+&lt;br&gt;不授权订单强制扣款" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-100" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-130" value="扫码后付租车押金20||&lt;br&gt;扫码后付租车费和押金22" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-240" y="850" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-131" value="转扣/解冻" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-225" y="1040" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-132" value="转扣结算" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-311" y="1139" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-133" value="更新账单" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-251" y="1139" width="52" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-134" value="推送供应商" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-99" y="1139" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-135" value="prepyaNotifyVC" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-199" y="1139" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-136" value="扫码后付违章押金" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-16.75" y="860" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-137" value="更新租车授权信息的扣车损金额" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-230" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6XB82AaUIucmRcIwyx3f-138" value="更新租车授权信息的扣违章金额" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-21.75" y="940" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
