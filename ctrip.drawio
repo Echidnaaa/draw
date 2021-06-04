@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-03T08:42:42.672Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="SPQ01Tvsfj2Rp2HLbE2y" version="14.7.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-04T09:26:59.495Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="t4I50sY5f6varE_er_gM" version="14.7.3" type="github" pages="2">
   <diagram id="86M54Zdc4KKlk3HMwRWE" name="第 1 页">
     <mxGraphModel dx="1662" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -674,6 +674,12 @@
         </mxCell>
         <mxCell id="D6KXNDg8LHqrNTGITyN3-4" value="if详情页授权：&lt;br&gt;总额=租车押金&lt;br&gt;扣款=扣除金额&lt;br&gt;else:&lt;br&gt;总额=租车押金+应收金额&lt;br&gt;扣款=&lt;br&gt;if有供应商回调：&lt;br&gt;有实际花费：扣除金额+实际花费；&lt;br&gt;无实际花费则：扣除金额&lt;br&gt;else:&lt;br&gt;扣除金额+应收金额" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
           <mxGeometry x="-1900" y="1167.5" width="190" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="D6KXNDg8LHqrNTGITyN3-7" value="Msg" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-60" y="1404" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D6KXNDg8LHqrNTGITyN3-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-60" y="1504" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
