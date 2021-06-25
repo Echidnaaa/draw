@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-22T15:55:30.175Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="M0cMuvIheM_OtLbl5uh1" version="14.8.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-06-25T04:44:13.826Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="sbbUJXcqzukVtFh-tJsl" version="14.7.7" type="github" pages="6">
   <diagram id="86M54Zdc4KKlk3HMwRWE" name="第 1 页">
-    <mxGraphModel dx="1673" dy="805" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1662" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -886,12 +886,65 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Fdk_FQW1CDtGXDocelEn" name="SearchOrder">
-    <mxGraphModel dx="1673" dy="805" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1662" dy="785" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="FfB6OIEF2nJcwYc5j_tg-0" />
         <mxCell id="FfB6OIEF2nJcwYc5j_tg-1" parent="FfB6OIEF2nJcwYc5j_tg-0" />
-        <mxCell id="FfB6OIEF2nJcwYc5j_tg-2" value="UID，Mobile&lt;br&gt;不能全为空&lt;br&gt;&lt;br&gt;PageIndex&amp;gt;0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FfB6OIEF2nJcwYc5j_tg-1">
+        <mxCell id="FfB6OIEF2nJcwYc5j_tg-2" value="UID，Mobile&lt;br&gt;不能全为空&lt;br&gt;&lt;br&gt;PageIndex&amp;gt;0" style="rounded=0;whiteSpace=wrap;html=1;" parent="FfB6OIEF2nJcwYc5j_tg-1" vertex="1">
           <mxGeometry x="354" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LPHNRNs4MNl9A-fsAZu3" name="remindSMS">
+    <mxGraphModel dx="1662" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="tc3LpvXCiEVcsoFF0HT1-0" />
+        <mxCell id="tc3LpvXCiEVcsoFF0HT1-1" parent="tc3LpvXCiEVcsoFF0HT1-0" />
+        <mxCell id="tc3LpvXCiEVcsoFF0HT1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tc3LpvXCiEVcsoFF0HT1-1" source="tc3LpvXCiEVcsoFF0HT1-2" target="tc3LpvXCiEVcsoFF0HT1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tc3LpvXCiEVcsoFF0HT1-2" value="开始会打log&lt;br&gt;title:ISD-remind-SMS-job&lt;br&gt;messaage:remindSmsjob is invoked!" style="whiteSpace=wrap;html=1;" vertex="1" parent="tc3LpvXCiEVcsoFF0HT1-1">
+          <mxGeometry x="300" y="100" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tc3LpvXCiEVcsoFF0HT1-3" value="应用:100032655&lt;br&gt;job名:ctrip.car.sd.order.isd.send.remind.sms" style="whiteSpace=wrap;html=1;" vertex="1" parent="tc3LpvXCiEVcsoFF0HT1-1">
+          <mxGeometry x="300" y="-50" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tc3LpvXCiEVcsoFF0HT1-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="tc3LpvXCiEVcsoFF0HT1-1" source="tc3LpvXCiEVcsoFF0HT1-4" target="tc3LpvXCiEVcsoFF0HT1-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tc3LpvXCiEVcsoFF0HT1-4" value="从执行时间开始,加1天到加2天的区间&lt;br&gt;产品分类为35(ISD)&lt;br&gt;订单状态&amp;lt;3&lt;br&gt;vendorOrderCode 不为&#39;&#39;&lt;br&gt;orderdate与usedate差&amp;gt;24小时&lt;br&gt;uid在uid测试名单外&lt;br&gt;渠道id不等于(16590,16591,16592,17698)" style="whiteSpace=wrap;html=1;" vertex="1" parent="tc3LpvXCiEVcsoFF0HT1-1">
+          <mxGeometry x="270" y="260" width="290" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tc3LpvXCiEVcsoFF0HT1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tc3LpvXCiEVcsoFF0HT1-1" source="tc3LpvXCiEVcsoFF0HT1-5" target="tc3LpvXCiEVcsoFF0HT1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tc3LpvXCiEVcsoFF0HT1-5" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;quot;fira code&amp;quot; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #6a8759&quot;&gt;&quot;SELECT  A.OrderID&quot; &lt;/span&gt;+&lt;br&gt;        &lt;span style=&quot;color: #6a8759&quot;&gt;&quot; FROM    CarOrderDB..Ord_OrderStatic (NOLOCK) A &quot; &lt;/span&gt;+&lt;br&gt;        &lt;span style=&quot;color: #6a8759&quot;&gt;&quot;  JOIN CarOrderDB..Ord_OrderDynamic (NOLOCK) B ON B.OrderID = A.OrderID &quot; &lt;/span&gt;+&lt;br&gt;        &lt;span style=&quot;color: #6a8759&quot;&gt;&quot; WHERE   A.ProductCategoryId = 35 &quot; &lt;/span&gt;+&lt;br&gt;        &lt;span style=&quot;color: #6a8759&quot;&gt;&quot; AND A.UseDate BETWEEN ? AND ? &quot; &lt;/span&gt;+&lt;br&gt;        &lt;span style=&quot;color: #6a8759&quot;&gt;&quot; AND B.OrderStatus &amp;lt; 3 &quot; &lt;/span&gt;+&lt;br&gt;        &lt;span style=&quot;color: #6a8759&quot;&gt;&quot; AND B.VendorOrderCode &amp;lt;&amp;gt; &#39;&#39;&quot; &lt;/span&gt;+&lt;br&gt;        &lt;span style=&quot;color: #6a8759&quot;&gt;&quot; AND DATEDIFF(HOUR, A.OrderDate, A.UseDate) &amp;gt; 24 &quot; &lt;/span&gt;+&lt;br&gt;        &lt;span style=&quot;color: #6a8759&quot;&gt;&quot; AND A.DistributionChannelID NOT IN ( 16590, 16591, 16592, 17698 ) &quot; &lt;/span&gt;+&lt;br&gt;        &lt;span style=&quot;color: #6a8759&quot;&gt;&quot; AND NOT EXISTS ( SELECT 1 FROM CarOrderDB..Ord_TestUidInfo(NOLOCK) WHERE Uid = A.Uid ) &quot;&lt;/span&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="tc3LpvXCiEVcsoFF0HT1-1">
+          <mxGeometry x="620" y="255" width="850" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="tc3LpvXCiEVcsoFF0HT1-6" value="具体sql" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="tc3LpvXCiEVcsoFF0HT1-1">
+          <mxGeometry x="635" y="250" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tc3LpvXCiEVcsoFF0HT1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="tc3LpvXCiEVcsoFF0HT1-1" source="tc3LpvXCiEVcsoFF0HT1-9" target="tc3LpvXCiEVcsoFF0HT1-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tc3LpvXCiEVcsoFF0HT1-9" value="发送command到SDOrderBizPollService&lt;br&gt;bizGrou:ISD_SMS&lt;br&gt;commandType:BEFORE_PICK_UPSMS&lt;br&gt;orderID:上面取出来的&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="tc3LpvXCiEVcsoFF0HT1-1">
+          <mxGeometry x="210" y="475" width="410" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tc3LpvXCiEVcsoFF0HT1-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="tc3LpvXCiEVcsoFF0HT1-1" source="tc3LpvXCiEVcsoFF0HT1-10" target="tc3LpvXCiEVcsoFF0HT1-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tc3LpvXCiEVcsoFF0HT1-10" value="发送CouplingLog到工程虎&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="tc3LpvXCiEVcsoFF0HT1-1">
+          <mxGeometry x="282.5" y="620" width="265" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tc3LpvXCiEVcsoFF0HT1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tc3LpvXCiEVcsoFF0HT1-1" source="tc3LpvXCiEVcsoFF0HT1-11" target="tc3LpvXCiEVcsoFF0HT1-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tc3LpvXCiEVcsoFF0HT1-11" value="发送ProcessingLog" style="whiteSpace=wrap;html=1;" vertex="1" parent="tc3LpvXCiEVcsoFF0HT1-1">
+          <mxGeometry x="282.5" y="710" width="265" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tc3LpvXCiEVcsoFF0HT1-12" value="结束打log&lt;br&gt;title:ISD-remind-SMS-job&lt;br&gt;message:RemindSMSJob finish executing...." style="whiteSpace=wrap;html=1;" vertex="1" parent="tc3LpvXCiEVcsoFF0HT1-1">
+          <mxGeometry x="282.5" y="790" width="265" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
