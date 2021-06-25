@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-25T04:44:13.826Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="sbbUJXcqzukVtFh-tJsl" version="14.7.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-06-25T05:46:23.311Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="KLImscgN-KEpwudChPct" version="14.7.7" type="github" pages="6">
   <diagram id="86M54Zdc4KKlk3HMwRWE" name="第 1 页">
     <mxGraphModel dx="1662" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -910,8 +910,14 @@
         <mxCell id="tc3LpvXCiEVcsoFF0HT1-3" value="应用:100032655&lt;br&gt;job名:ctrip.car.sd.order.isd.send.remind.sms" style="whiteSpace=wrap;html=1;" vertex="1" parent="tc3LpvXCiEVcsoFF0HT1-1">
           <mxGeometry x="300" y="-50" width="230" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="tc3LpvXCiEVcsoFF0HT1-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="tc3LpvXCiEVcsoFF0HT1-1" source="tc3LpvXCiEVcsoFF0HT1-4" target="tc3LpvXCiEVcsoFF0HT1-9">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="tc3LpvXCiEVcsoFF0HT1-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="tc3LpvXCiEVcsoFF0HT1-1" source="tc3LpvXCiEVcsoFF0HT1-4" target="tc3LpvXCiEVcsoFF0HT1-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="460" as="sourcePoint" />
+            <mxPoint x="370" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="415" y="490" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="tc3LpvXCiEVcsoFF0HT1-4" value="从执行时间开始,加1天到加2天的区间&lt;br&gt;产品分类为35(ISD)&lt;br&gt;订单状态&amp;lt;3&lt;br&gt;vendorOrderCode 不为&#39;&#39;&lt;br&gt;orderdate与usedate差&amp;gt;24小时&lt;br&gt;uid在uid测试名单外&lt;br&gt;渠道id不等于(16590,16591,16592,17698)" style="whiteSpace=wrap;html=1;" vertex="1" parent="tc3LpvXCiEVcsoFF0HT1-1">
           <mxGeometry x="270" y="260" width="290" height="170" as="geometry" />
@@ -929,22 +935,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tc3LpvXCiEVcsoFF0HT1-9" value="发送command到SDOrderBizPollService&lt;br&gt;bizGrou:ISD_SMS&lt;br&gt;commandType:BEFORE_PICK_UPSMS&lt;br&gt;orderID:上面取出来的&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="tc3LpvXCiEVcsoFF0HT1-1">
-          <mxGeometry x="210" y="475" width="410" height="110" as="geometry" />
+          <mxGeometry x="210" y="505" width="410" height="110" as="geometry" />
         </mxCell>
         <mxCell id="tc3LpvXCiEVcsoFF0HT1-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="tc3LpvXCiEVcsoFF0HT1-1" source="tc3LpvXCiEVcsoFF0HT1-10" target="tc3LpvXCiEVcsoFF0HT1-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tc3LpvXCiEVcsoFF0HT1-10" value="发送CouplingLog到工程虎&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="tc3LpvXCiEVcsoFF0HT1-1">
-          <mxGeometry x="282.5" y="620" width="265" height="60" as="geometry" />
+          <mxGeometry x="282.5" y="650" width="265" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tc3LpvXCiEVcsoFF0HT1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tc3LpvXCiEVcsoFF0HT1-1" source="tc3LpvXCiEVcsoFF0HT1-11" target="tc3LpvXCiEVcsoFF0HT1-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tc3LpvXCiEVcsoFF0HT1-11" value="发送ProcessingLog" style="whiteSpace=wrap;html=1;" vertex="1" parent="tc3LpvXCiEVcsoFF0HT1-1">
-          <mxGeometry x="282.5" y="710" width="265" height="60" as="geometry" />
+          <mxGeometry x="282.5" y="740" width="265" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tc3LpvXCiEVcsoFF0HT1-12" value="结束打log&lt;br&gt;title:ISD-remind-SMS-job&lt;br&gt;message:RemindSMSJob finish executing...." style="whiteSpace=wrap;html=1;" vertex="1" parent="tc3LpvXCiEVcsoFF0HT1-1">
-          <mxGeometry x="282.5" y="790" width="265" height="60" as="geometry" />
+          <mxGeometry x="282.5" y="820" width="265" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tc3LpvXCiEVcsoFF0HT1-19" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="tc3LpvXCiEVcsoFF0HT1-1">
+          <mxGeometry x="170" y="490" width="490" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="tc3LpvXCiEVcsoFF0HT1-20" value="循环遍历查出来的id列表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="tc3LpvXCiEVcsoFF0HT1-1">
+          <mxGeometry x="420" y="450" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
