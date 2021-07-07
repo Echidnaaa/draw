@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-07T02:16:20.487Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="nrlszoiGkCjh0YtKeUfw" version="14.8.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-07-07T02:44:11.163Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="s_XcJTJyCC7wP539zmvD" version="14.8.4" type="github" pages="8">
   <diagram id="86M54Zdc4KKlk3HMwRWE" name="第 1 页">
     <mxGraphModel dx="1662" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -918,7 +918,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LPHNRNs4MNl9A-fsAZu3" name="remindSMS">
-    <mxGraphModel dx="5576" dy="3412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1640" dy="1618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="tc3LpvXCiEVcsoFF0HT1-0" />
         <mxCell id="tc3LpvXCiEVcsoFF0HT1-1" parent="tc3LpvXCiEVcsoFF0HT1-0" />
@@ -1138,6 +1138,53 @@
         </mxCell>
         <mxCell id="37dWgq4n_X4dxXTdLNLK-32" value="&lt;font style=&quot;font-size: 15px&quot;&gt;同时执行&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="tc3LpvXCiEVcsoFF0HT1-1" vertex="1">
           <mxGeometry x="1009.5" y="2100" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tW8PKww3p2m9ozg55RG6-0" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="tc3LpvXCiEVcsoFF0HT1-1" source="tc3LpvXCiEVcsoFF0HT1-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="340" as="sourcePoint" />
+            <mxPoint x="280" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tW8PKww3p2m9ozg55RG6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tc3LpvXCiEVcsoFF0HT1-1" source="tW8PKww3p2m9ozg55RG6-3" target="tW8PKww3p2m9ozg55RG6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tW8PKww3p2m9ozg55RG6-3" value="100019630&lt;br&gt;biz-pool-service&lt;br&gt;msgId生成&lt;br&gt;指令内容落库（&lt;span style=&quot;color: rgb(106 , 135 , 89) ; background-color: rgb(43 , 43 , 43) ; font-family: &amp;#34;fira code&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;sd_order_commandmsg&lt;/span&gt;&lt;span&gt;）&lt;/span&gt;&lt;br&gt;发送qmq（msgid）" style="whiteSpace=wrap;html=1;" vertex="1" parent="tc3LpvXCiEVcsoFF0HT1-1">
+          <mxGeometry x="280" y="265" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tW8PKww3p2m9ozg55RG6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tc3LpvXCiEVcsoFF0HT1-1" source="tW8PKww3p2m9ozg55RG6-4" target="tW8PKww3p2m9ozg55RG6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tW8PKww3p2m9ozg55RG6-4" value="100020959&lt;br&gt;消费指令BEFORE_PICK_UP_SMS&lt;br&gt;查手机号&lt;br&gt;装配短息模板" style="whiteSpace=wrap;html=1;" vertex="1" parent="tc3LpvXCiEVcsoFF0HT1-1">
+          <mxGeometry x="620" y="266.25" width="180" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="tW8PKww3p2m9ozg55RG6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;" edge="1" parent="tc3LpvXCiEVcsoFF0HT1-1" source="tW8PKww3p2m9ozg55RG6-6" target="tW8PKww3p2m9ozg55RG6-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="985" y="460" />
+              <mxPoint x="385" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tW8PKww3p2m9ozg55RG6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tc3LpvXCiEVcsoFF0HT1-1" source="tW8PKww3p2m9ozg55RG6-6" target="tW8PKww3p2m9ozg55RG6-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tW8PKww3p2m9ozg55RG6-6" value="100017398&lt;br&gt;sendmessage-service&lt;br&gt;发送渠道查询" style="whiteSpace=wrap;html=1;" vertex="1" parent="tc3LpvXCiEVcsoFF0HT1-1">
+          <mxGeometry x="910" y="285" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tW8PKww3p2m9ozg55RG6-8" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0.65) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;100017401&lt;/span&gt;&lt;br&gt;TOPIC_SMS&lt;br&gt;消息过滤" style="whiteSpace=wrap;html=1;" vertex="1" parent="tc3LpvXCiEVcsoFF0HT1-1">
+          <mxGeometry x="1249.5" y="285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tW8PKww3p2m9ozg55RG6-13" value="qmq" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="tc3LpvXCiEVcsoFF0HT1-1">
+          <mxGeometry x="1124.5" y="285" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tW8PKww3p2m9ozg55RG6-14" value="qmq" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="tc3LpvXCiEVcsoFF0HT1-1">
+          <mxGeometry x="531" y="290" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tW8PKww3p2m9ozg55RG6-15" value="soa" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="tc3LpvXCiEVcsoFF0HT1-1">
+          <mxGeometry x="840" y="290" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tW8PKww3p2m9ozg55RG6-16" value="渠道查询" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="tc3LpvXCiEVcsoFF0HT1-1">
+          <mxGeometry x="650" y="440" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
