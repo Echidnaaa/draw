@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-07T11:19:17.611Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="BcDPTh1RrZkJDhO7shBg" version="14.8.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-07-08T09:35:40.958Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="kyEpGwu25MJ_aR-v7URs" version="14.8.4" type="github" pages="8">
   <diagram id="86M54Zdc4KKlk3HMwRWE" name="第 1 页">
-    <mxGraphModel dx="1662" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1608" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -193,10 +193,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dheDjm8__-StCTbA1Qz6" name="PrepayNotify">
-    <mxGraphModel dx="4143" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4778" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="6XB82AaUIucmRcIwyx3f-0" />
         <mxCell id="6XB82AaUIucmRcIwyx3f-1" parent="6XB82AaUIucmRcIwyx3f-0" />
+        <mxCell id="ub9P3ZiHO4fDS66ZRkMO-5" value="Handle(SettlementCommand)" style="shape=umlFrame;whiteSpace=wrap;html=1;width=190;height=44;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-865" y="2640" width="1030" height="554" as="geometry" />
+        </mxCell>
         <mxCell id="tvKQcMdrMMNnRiWynG_E-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="6XB82AaUIucmRcIwyx3f-1" source="6XB82AaUIucmRcIwyx3f-2" target="6XB82AaUIucmRcIwyx3f-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -715,72 +718,173 @@
           <mxGeometry x="-1900" y="1167.5" width="190" height="205" as="geometry" />
         </mxCell>
         <mxCell id="D6KXNDg8LHqrNTGITyN3-7" value="Msg&lt;br&gt;所需字段&lt;br&gt;OrderID&lt;br&gt;supplement" style="rounded=0;whiteSpace=wrap;html=1;" parent="6XB82AaUIucmRcIwyx3f-1" vertex="1">
-          <mxGeometry x="50" y="1770" width="120" height="60" as="geometry" />
+          <mxGeometry x="-192.5" y="1770" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="D6KXNDg8LHqrNTGITyN3-8" value="判断supplemt" style="rounded=0;whiteSpace=wrap;html=1;" parent="6XB82AaUIucmRcIwyx3f-1" vertex="1">
-          <mxGeometry x="50" y="1870" width="120" height="60" as="geometry" />
+          <mxGeometry x="-192.5" y="1870" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ppp_5BxTRTjzHGdEoywc-0" value="加载orderStatic+&lt;br&gt;PrepaymentNotification" style="rounded=0;whiteSpace=wrap;html=1;" parent="6XB82AaUIucmRcIwyx3f-1" vertex="1">
-          <mxGeometry x="45" y="1966" width="130" height="60" as="geometry" />
+          <mxGeometry x="-197.5" y="1966" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ppp_5BxTRTjzHGdEoywc-1" value="渠道分发" style="rounded=0;whiteSpace=wrap;html=1;" parent="6XB82AaUIucmRcIwyx3f-1" vertex="1">
-          <mxGeometry x="45" y="2046" width="130" height="60" as="geometry" />
+          <mxGeometry x="-197.5" y="2046" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ppp_5BxTRTjzHGdEoywc-2" value="授权回调" style="rounded=0;whiteSpace=wrap;html=1;" parent="6XB82AaUIucmRcIwyx3f-1" vertex="1">
-          <mxGeometry x="-120" y="2146" width="130" height="60" as="geometry" />
+          <mxGeometry x="-362.5" y="2146" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ppp_5BxTRTjzHGdEoywc-3" value="人工订单过滤" style="rounded=0;whiteSpace=wrap;html=1;" parent="6XB82AaUIucmRcIwyx3f-1" vertex="1">
-          <mxGeometry x="-108" y="2216" width="130" height="60" as="geometry" />
+          <mxGeometry x="-350.5" y="2216" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ppp_5BxTRTjzHGdEoywc-4" value="授权信息+&lt;br&gt;订单信息回调" style="rounded=0;whiteSpace=wrap;html=1;" parent="6XB82AaUIucmRcIwyx3f-1" vertex="1">
-          <mxGeometry x="-108" y="2286" width="130" height="60" as="geometry" />
+          <mxGeometry x="-350.5" y="2286" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ppp_5BxTRTjzHGdEoywc-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="6XB82AaUIucmRcIwyx3f-1" target="ppp_5BxTRTjzHGdEoywc-6" edge="1">
+        <mxCell id="ppp_5BxTRTjzHGdEoywc-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="6XB82AaUIucmRcIwyx3f-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-370" y="2066" as="sourcePoint" />
+            <mxPoint x="-612.5" y="2066" as="sourcePoint" />
+            <mxPoint x="-692.5" y="2066" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ppp_5BxTRTjzHGdEoywc-5" value="信用卡授权" style="rounded=0;whiteSpace=wrap;html=1;" parent="6XB82AaUIucmRcIwyx3f-1" vertex="1">
-          <mxGeometry x="-108" y="2376" width="130" height="60" as="geometry" />
+          <mxGeometry x="-350.5" y="2376" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ppp_5BxTRTjzHGdEoywc-6" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0.87) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(250 , 250 , 250)&quot;&gt;car-order-biz-pool-service&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="6XB82AaUIucmRcIwyx3f-1" vertex="1">
           <mxGeometry x="-580" y="2036" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ppp_5BxTRTjzHGdEoywc-8" value="pms新流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="6XB82AaUIucmRcIwyx3f-1" vertex="1">
-          <mxGeometry x="-445" y="2046" width="70" height="20" as="geometry" />
+          <mxGeometry x="-687.5" y="2046" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ppp_5BxTRTjzHGdEoywc-9" value="租车押金" style="rounded=0;whiteSpace=wrap;html=1;" parent="6XB82AaUIucmRcIwyx3f-1" vertex="1">
-          <mxGeometry x="-320" y="2020" width="120" height="60" as="geometry" />
+          <mxGeometry x="-562.5" y="2020" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ppp_5BxTRTjzHGdEoywc-10" value="违章押金" style="rounded=0;whiteSpace=wrap;html=1;" parent="6XB82AaUIucmRcIwyx3f-1" vertex="1">
-          <mxGeometry x="-200" y="2020" width="120" height="60" as="geometry" />
+          <mxGeometry x="-442.5" y="2020" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ppp_5BxTRTjzHGdEoywc-11" value="更新预授权信息&lt;br&gt;扣车损金额" style="rounded=0;whiteSpace=wrap;html=1;" parent="6XB82AaUIucmRcIwyx3f-1" vertex="1">
-          <mxGeometry x="-390" y="2176" width="120" height="60" as="geometry" />
+          <mxGeometry x="-632.5" y="2176" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ub9P3ZiHO4fDS66ZRkMO-0" value="doSettlement" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
           <mxGeometry x="-1910" y="1966" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ub9P3ZiHO4fDS66ZRkMO-1" value="Handle(SettlementCommand)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
-          <mxGeometry x="-1390" y="1980" width="210" height="60" as="geometry" />
+          <mxGeometry x="-1581" y="2250" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ub9P3ZiHO4fDS66ZRkMO-2" value="find" style="html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
-          <mxGeometry x="-1340" y="2080" width="110" height="50" as="geometry" />
+        <mxCell id="ub9P3ZiHO4fDS66ZRkMO-2" value="+ find(orderID):SettlementData" style="html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-1570" y="2346" width="189" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ub9P3ZiHO4fDS66ZRkMO-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6XB82AaUIucmRcIwyx3f-1" source="ub9P3ZiHO4fDS66ZRkMO-3" target="ub9P3ZiHO4fDS66ZRkMO-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ub9P3ZiHO4fDS66ZRkMO-3" value="根据orderid查找order_dynamic&lt;br&gt;实例化 SetSettlementRequest()" style="html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
-          <mxGeometry x="-900" y="2036" width="320" height="160" as="geometry" />
+          <mxGeometry x="-1176.5" y="2338" width="230" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="ub9P3ZiHO4fDS66ZRkMO-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;SettlementData&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ OrderID: long&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ order: OrderDynamic&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ SettlementDataInfo: SetSettlementRequest&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ SetttlementDataItemInfos: IAggregateCollection&amp;lt;SetSettlementDataItems&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ OrderStatusInfo: OrdOrderStatus&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
-          <mxGeometry x="-500" y="2376" width="429" height="110" as="geometry" />
+        <mxCell id="ub9P3ZiHO4fDS66ZRkMO-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;SettlementData&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ OrderID: long&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Order: OrderDynamic&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ SettlementDataInfo: SetSettlementRequest&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ SetttlementDataItemInfos: IAggregateCollection&amp;lt;SetSettlementDataItems&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ OrderStatusInfo: OrdOrderStatus&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-2240" y="2470" width="429" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="ub9P3ZiHO4fDS66ZRkMO-5" value="Handle(SettlementCommand)" style="shape=umlFrame;whiteSpace=wrap;html=1;width=190;height=44;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
-          <mxGeometry x="-1560" y="2216" width="1030" height="554" as="geometry" />
+        <mxCell id="ub9P3ZiHO4fDS66ZRkMO-7" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-620" y="2320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ub9P3ZiHO4fDS66ZRkMO-10" value="SettlementCommand.Map(SettlemtData)" style="whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-1590.25" y="2485" width="236" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ub9P3ZiHO4fDS66ZRkMO-11" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;SettlementCommand&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ OrderID: long&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ SettlementAdjustAmount: decimal&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ TotalSettlement: decimal&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ SettlementDataInfo: SettlementRequest&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ SettlementDataItems: List&amp;lt;SettlementDataItem&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ OrderStautusInfo: OrderStaus&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-2180.5" y="2320" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ub9P3ZiHO4fDS66ZRkMO-12" value="SettlementCommand.Map(SettlemtData.OrderDynamic)" style="whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-1657.75" y="2660" width="363.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ub9P3ZiHO4fDS66ZRkMO-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6XB82AaUIucmRcIwyx3f-1" source="ub9P3ZiHO4fDS66ZRkMO-13" target="ub9P3ZiHO4fDS66ZRkMO-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ub9P3ZiHO4fDS66ZRkMO-13" value="这里会map&lt;br&gt;1.OrderID&lt;br&gt;2.SettlementRequest&lt;br&gt;3.OrdOrderStatus??" style="whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-1126.25" y="2450" width="167" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ub9P3ZiHO4fDS66ZRkMO-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6XB82AaUIucmRcIwyx3f-1" source="ub9P3ZiHO4fDS66ZRkMO-15" target="ub9P3ZiHO4fDS66ZRkMO-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ub9P3ZiHO4fDS66ZRkMO-15" value="map&lt;br&gt;OrderDynamic" style="whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-1097" y="2660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ub9P3ZiHO4fDS66ZRkMO-17" value="填充SetSettlementDataItems" style="whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-1556.62" y="2760" width="162.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ub9P3ZiHO4fDS66ZRkMO-18" value="add" style="whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-1536" y="2850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ub9P3ZiHO4fDS66ZRkMO-19" value="prepayNotify(requset.OrdMsgInfo)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="1030" y="1554" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ub9P3ZiHO4fDS66ZRkMO-20" value="PrepayNotify(prepay,Order)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="660" y="1690" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ub9P3ZiHO4fDS66ZRkMO-21" value="PrepayNotifyQR(prepay,Order)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="950" y="1690" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ub9P3ZiHO4fDS66ZRkMO-23" value="CreditScoreOperate(order,prepya,amount)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="1250" y="1690" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ub9P3ZiHO4fDS66ZRkMO-24" value="prepayNext(order,prepay,billno)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="920" y="2120" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i92aJZHaTYCp9Wm5e1uS-0" value="PrepaySuccess(order,prepay,amount)" style="whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="600" y="2120" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i92aJZHaTYCp9Wm5e1uS-1" value="PrepayNotifyVC(prder,type,amount)" style="whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="1280" y="2120" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i92aJZHaTYCp9Wm5e1uS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6XB82AaUIucmRcIwyx3f-1" source="i92aJZHaTYCp9Wm5e1uS-2" target="i92aJZHaTYCp9Wm5e1uS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i92aJZHaTYCp9Wm5e1uS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6XB82AaUIucmRcIwyx3f-1" source="i92aJZHaTYCp9Wm5e1uS-2" target="i92aJZHaTYCp9Wm5e1uS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i92aJZHaTYCp9Wm5e1uS-2" value="PrepayOperate(order,billNo,total,decuct,uid)" style="whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="210" y="2120" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i92aJZHaTYCp9Wm5e1uS-3" value="CancelBill(CancelInfo)" style="whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="245" y="2310" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i92aJZHaTYCp9Wm5e1uS-4" value="DeductBill(DeductInfo)" style="whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="405" y="2310" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i92aJZHaTYCp9Wm5e1uS-7" value="PrepayFail(orderID,amount,conten)" style="whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="-26.75" y="2120" width="201.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i92aJZHaTYCp9Wm5e1uS-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6XB82AaUIucmRcIwyx3f-1" source="i92aJZHaTYCp9Wm5e1uS-8" target="i92aJZHaTYCp9Wm5e1uS-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1768" y="2240" />
+              <mxPoint x="1953" y="2240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i92aJZHaTYCp9Wm5e1uS-8" value="CancelUpdate(orderId,billNo)" style="whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="1660" y="2120" width="216" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i92aJZHaTYCp9Wm5e1uS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6XB82AaUIucmRcIwyx3f-1" source="i92aJZHaTYCp9Wm5e1uS-9" target="i92aJZHaTYCp9Wm5e1uS-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i92aJZHaTYCp9Wm5e1uS-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6XB82AaUIucmRcIwyx3f-1" source="i92aJZHaTYCp9Wm5e1uS-9" target="i92aJZHaTYCp9Wm5e1uS-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2094" y="2240" />
+              <mxPoint x="1953" y="2240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i92aJZHaTYCp9Wm5e1uS-9" value="DeductUpdate(order,oriBillNo,newBillNo,amount)" style="whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="1948" y="2120" width="292" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i92aJZHaTYCp9Wm5e1uS-10" value="QueryBill(QeryBillCondition)" style="whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="2068" y="2310" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i92aJZHaTYCp9Wm5e1uS-11" value="DeductCommad" style="whiteSpace=wrap;html=1;" vertex="1" parent="6XB82AaUIucmRcIwyx3f-1">
+          <mxGeometry x="1838" y="2440" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="pvNl12poAvfwRYpRpuVq" name="isdBookingAvailable">
-    <mxGraphModel dx="1662" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1608" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="VFmpjlkShEdCCGPwerm5-0" />
         <mxCell id="VFmpjlkShEdCCGPwerm5-1" parent="VFmpjlkShEdCCGPwerm5-0" />
@@ -857,7 +961,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jAksUWFzlYuiuX8l1BrQ" name="CreateISDPursueOrder">
-    <mxGraphModel dx="1662" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1608" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="GOj-h322Wmo4CNXWcDR8-0" />
         <mxCell id="GOj-h322Wmo4CNXWcDR8-1" parent="GOj-h322Wmo4CNXWcDR8-0" />
@@ -904,7 +1008,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Fdk_FQW1CDtGXDocelEn" name="SearchOrder">
-    <mxGraphModel dx="1662" dy="785" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1608" dy="785" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="FfB6OIEF2nJcwYc5j_tg-0" />
         <mxCell id="FfB6OIEF2nJcwYc5j_tg-1" parent="FfB6OIEF2nJcwYc5j_tg-0" />
@@ -1300,7 +1404,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xJVau4rLgCNumKoAI0tM" name="第 8 页">
-    <mxGraphModel dx="1662" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1608" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Q8BnNj5FX8uqYIMVTOT--0" />
         <mxCell id="Q8BnNj5FX8uqYIMVTOT--1" parent="Q8BnNj5FX8uqYIMVTOT--0" />
