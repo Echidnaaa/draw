@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-12T15:50:31.841Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="ZY4HesxY3UgBTJDm38dA" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-12T15:59:10.128Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="5PiNmTT-a0DYzHVs63vC" version="14.8.5" type="github">
   <diagram id="urWVjwSXjhIiqOl-fs-m" name="第 1 页">
-    <mxGraphModel dx="3400" dy="-234" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3262" dy="-374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1001,6 +1001,33 @@
         </mxCell>
         <mxCell id="LciTaDFZDo9ZwtDa6lRG-27" value="将&lt;br&gt;detail.BillItemStatus&lt;br&gt;=“CANECEL“" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2847.5" y="4730" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LciTaDFZDo9ZwtDa6lRG-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LciTaDFZDo9ZwtDa6lRG-30" target="LciTaDFZDo9ZwtDa6lRG-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LciTaDFZDo9ZwtDa6lRG-30" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2460" y="3840" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LciTaDFZDo9ZwtDa6lRG-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LciTaDFZDo9ZwtDa6lRG-31" target="LciTaDFZDo9ZwtDa6lRG-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LciTaDFZDo9ZwtDa6lRG-31" value="RefundBill(RefundInfo)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2410" y="3900" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LciTaDFZDo9ZwtDa6lRG-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LciTaDFZDo9ZwtDa6lRG-33" target="LciTaDFZDo9ZwtDa6lRG-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LciTaDFZDo9ZwtDa6lRG-33" value="RPC调用refundBill" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2405" y="3994.5" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LciTaDFZDo9ZwtDa6lRG-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LciTaDFZDo9ZwtDa6lRG-35" target="LciTaDFZDo9ZwtDa6lRG-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LciTaDFZDo9ZwtDa6lRG-35" value="QueryBill" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2420" y="4081" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LciTaDFZDo9ZwtDa6lRG-37" value="SaveBill&lt;br&gt;Insert(Bill_info)&lt;br&gt;insert(Bill_detail_Info)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2420" y="4170" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
