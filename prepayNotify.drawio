@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-13T04:38:12.886Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="qYUZfs-6y9PCEobEdYZK" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-13T12:33:45.023Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="dDMcYUXyYbmK3X7IzZTT" version="14.8.5" type="github">
   <diagram id="urWVjwSXjhIiqOl-fs-m" name="第 1 页">
-    <mxGraphModel dx="3609" dy="-245" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3431" dy="-720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -946,28 +946,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LciTaDFZDo9ZwtDa6lRG-30" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="2460" y="3840" width="40" height="40" as="geometry" />
+          <mxGeometry x="1835" y="4780" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LciTaDFZDo9ZwtDa6lRG-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="LciTaDFZDo9ZwtDa6lRG-31" target="LciTaDFZDo9ZwtDa6lRG-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LciTaDFZDo9ZwtDa6lRG-31" value="RefundBill(RefundInfo)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2410" y="3900" width="140" height="60" as="geometry" />
+        <mxCell id="LciTaDFZDo9ZwtDa6lRG-31" value="RefundOperator(RefundInfo)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1767.5" y="4840" width="175" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LciTaDFZDo9ZwtDa6lRG-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="LciTaDFZDo9ZwtDa6lRG-33" target="LciTaDFZDo9ZwtDa6lRG-35" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="LciTaDFZDo9ZwtDa6lRG-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="LciTaDFZDo9ZwtDa6lRG-33" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1855" y="5021" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="LciTaDFZDo9ZwtDa6lRG-33" value="RPC调用refundBill" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2405" y="3994.5" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="LciTaDFZDo9ZwtDa6lRG-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="LciTaDFZDo9ZwtDa6lRG-35" target="LciTaDFZDo9ZwtDa6lRG-37" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="LciTaDFZDo9ZwtDa6lRG-35" value="QueryBill" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2420" y="4081" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="LciTaDFZDo9ZwtDa6lRG-37" value="SaveBill&lt;br&gt;Insert(Bill_info)&lt;br&gt;insert(Bill_detail_Info)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2420" y="4170" width="120" height="60" as="geometry" />
+        <mxCell id="LciTaDFZDo9ZwtDa6lRG-33" value="SOA(100013409)&lt;br&gt;partOfRefundByBillAountType" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1769.5" y="4930" width="171" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RYgBorsTauFN7PILpJCm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-2" target="RYgBorsTauFN7PILpJCm-3">
           <mxGeometry relative="1" as="geometry">
@@ -1023,6 +1016,149 @@
         </mxCell>
         <mxCell id="RYgBorsTauFN7PILpJCm-18" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.or;" vertex="1" parent="1">
           <mxGeometry x="1737.5" y="4290" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="4840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-23" target="RYgBorsTauFN7PILpJCm-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-23" value="非信用卡付租车押金与车损&lt;br&gt;preAuthType==5 &amp;amp;&amp;amp; AuthorizedType != 1&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1510" y="3037.25" width="265" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-24" target="RYgBorsTauFN7PILpJCm-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-24" value="获取供应商回调table(Ord_SDActualOrderInfo)&lt;br&gt;where(orderid,vendorOrderStatus&amp;lt;=3)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1482.5" y="3227.75" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-25" target="RYgBorsTauFN7PILpJCm-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-25" value="获取租车授权信息&lt;br&gt;table(Ord_AuthorizedOrder)&lt;br&gt;where(orderid)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1497.5" y="3129.5" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-28" target="RYgBorsTauFN7PILpJCm-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-28" target="RYgBorsTauFN7PILpJCm-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-28" value="车损&amp;gt;0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1417.5" y="3317.25" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-30" value="&lt;span&gt;Ord_ISDPrepaymentNotifcation.LossAmount&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1337.5" y="3347.25" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-31" target="RYgBorsTauFN7PILpJCm-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-31" value="更新租车授权信息&lt;br&gt;table(Ord_AuthorizedOrder)&lt;br&gt;field(DeductForCar =&amp;nbsp;&lt;br&gt;Ord_ISDPrepaymentNotifcation.LossAmount)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1752.5" y="3312.25" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-33" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1470" y="3337.75" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-35" target="RYgBorsTauFN7PILpJCm-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-35" value="退款金额=租车押金-车损-违章押金-ETC押金" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1521.25" y="3447" width="287.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-38" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1377.5" y="3405" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-39" target="RYgBorsTauFN7PILpJCm-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-39" value="供应商回调&lt;br&gt;存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1417.5" y="3530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-41" target="RYgBorsTauFN7PILpJCm-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-41" value="退款金额=退款金额+租车费-实际租车费" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1488.75" y="3637.25" width="222.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-43" target="RYgBorsTauFN7PILpJCm-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-43" target="RYgBorsTauFN7PILpJCm-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1471" y="3767" />
+              <mxPoint x="-1471" y="3980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-43" value="供应商订单状态==2||3(客户没出现、取消)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1436.25" y="3718.62" width="117.5" height="97.25" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-45" target="RYgBorsTauFN7PILpJCm-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-45" value="退款金额=退款金额+违章押金+ETC押金" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1437.5" y="3847.25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-47" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1377.5" y="3817.25" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-48" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1377.5" y="3610" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-50" target="RYgBorsTauFN7PILpJCm-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-50" target="RYgBorsTauFN7PILpJCm-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1376.25" y="4062.0000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-50" value="退款金额&amp;gt;=0&lt;br&gt;&amp;amp;&amp;amp; 上一步为true" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1451.25" y="3940" width="147.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-53" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1470" y="3950" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-55" target="RYgBorsTauFN7PILpJCm-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1376.25" y="4062.0000000000005" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1097" y="4030" />
+              <mxPoint x="-1377" y="4030" />
+              <mxPoint x="-1377" y="4060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-55" value="insert&lt;br&gt;table(Ord_ISDPrepaymentNotification)&lt;br&gt;field(orderid,authtype=6,billNo&lt;br&gt;,processStauts=0,resultType=0)....." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1233.75" y="3950" width="273.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-57" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1297.5" y="3957.25" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-61" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1417.5" y="4022.25" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-62" target="RYgBorsTauFN7PILpJCm-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-62" target="RYgBorsTauFN7PILpJCm-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-62" value="退款金额" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1417.5" y="4060" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-63" value="refundOperate" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1257.5" y="4070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-65" value="退款金额&amp;gt;0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1337.5" y="4081" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-66" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1608.75" y="4070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-68" value="退款金额&amp;lt;0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1490" y="4081" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
