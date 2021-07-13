@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-13T13:58:11.077Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="G8OQE9GX_9qxjr0BCpvb" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-13T14:02:11.437Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="NqhethaJudaUlHOAAdPm" version="14.8.5" type="github">
   <diagram id="urWVjwSXjhIiqOl-fs-m" name="第 1 页">
-    <mxGraphModel dx="3039" dy="-515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3609" dy="-245" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1327,6 +1327,11 @@
         <mxCell id="RYgBorsTauFN7PILpJCm-132" value="退款金额&amp;gt;0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="185" y="1923.75" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-133" target="RYgBorsTauFN7PILpJCm-173">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="225" y="2120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="RYgBorsTauFN7PILpJCm-133" value="refundUnspecific" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="166.88" y="2030" width="116.25" height="60" as="geometry" />
         </mxCell>
@@ -1444,6 +1449,51 @@
         </mxCell>
         <mxCell id="RYgBorsTauFN7PILpJCm-168" value="计算退款金额&lt;br&gt;amount-canrefund" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2184.2599999999998" y="4960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-173" target="RYgBorsTauFN7PILpJCm-174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-178" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-173" target="RYgBorsTauFN7PILpJCm-177">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-173" value="退款成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185.01" y="2120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-174" target="RYgBorsTauFN7PILpJCm-185">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-174" value="prepayNext" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165.01" y="2230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-176" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="283.13" y="2140" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-177" target="RYgBorsTauFN7PILpJCm-179">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-177" value="prepayFail" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="2130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-179" target="RYgBorsTauFN7PILpJCm-181">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-179" value="prepayNotifyVC(order,123,amount)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="2230" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-181" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.or;" vertex="1" parent="1">
+          <mxGeometry x="425" y="2336" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-184" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="2200" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-185" target="RYgBorsTauFN7PILpJCm-187">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-185" value="prepayNotifyVC(order,102,amount)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="2322.75" width="195.63" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-187" value="prepaySuccess" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="2424.25" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
