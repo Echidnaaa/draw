@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-13T13:57:50.363Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="wVnm4C8raApdazZhnMrT" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-13T13:58:11.077Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="G8OQE9GX_9qxjr0BCpvb" version="14.8.5" type="github">
   <diagram id="urWVjwSXjhIiqOl-fs-m" name="第 1 页">
     <mxGraphModel dx="3039" dy="-515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1358,9 +1358,6 @@
         </mxCell>
         <mxCell id="RYgBorsTauFN7PILpJCm-140" value="计算该bill下所有detailitem.realAmount的totalAmount总额与&lt;br&gt;refunded金额&lt;br&gt;(requestType=“D”&amp;amp;&amp;amp;refudnRelatedNo =billNo &amp;amp;&amp;amp;Orderid =orderid)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2091.26" y="4097.25" width="307.49" height="72.75" as="geometry" />
-        </mxCell>
-        <mxCell id="RYgBorsTauFN7PILpJCm-142" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1930" y="4007.25" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RYgBorsTauFN7PILpJCm-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-143" target="RYgBorsTauFN7PILpJCm-145">
           <mxGeometry relative="1" as="geometry" />
