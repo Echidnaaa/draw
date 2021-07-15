@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-15T01:10:53.108Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="hfeU4uUpE8YVDVyBAVjp" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-15T02:14:12.238Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="4gzD0XIHH4g620kH2Gq6" version="14.8.5" type="github">
   <diagram id="urWVjwSXjhIiqOl-fs-m" name="第 1 页">
     <mxGraphModel dx="4242" dy="-720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1910,6 +1910,33 @@
         </mxCell>
         <mxCell id="RYgBorsTauFN7PILpJCm-337" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.or;" vertex="1" parent="1">
           <mxGeometry x="-551.75" y="4067.25" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-341" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-339" target="RYgBorsTauFN7PILpJCm-340">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-339" value="扫码非信用卡付租车费及押金||扫码非信用卡付&lt;br&gt;preAuthType=20|| 22 &amp;amp;&amp;amp; AuthorizedType != 1&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1630" y="3209.75" width="265" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-343" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-340" target="RYgBorsTauFN7PILpJCm-342">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-345" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-340" target="RYgBorsTauFN7PILpJCm-344">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-340" value="预授权类型" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1537.5" y="3314.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-342" value="授权信息&lt;br&gt;table(Ord_AuthorizedOrder)&lt;br&gt;where(orderId,authorizedMoment=3)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1860" y="3324.5" width="222.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-344" value="&lt;span&gt;授权信息&lt;/span&gt;&lt;br&gt;&lt;span&gt;table(Ord_AuthorizedOrder)&lt;/span&gt;&lt;br&gt;&lt;span&gt;where(orderId,authorizedMoment=6)&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1365" y="3324.5" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-346" value="preAuthType=20" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1465" y="3332" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RYgBorsTauFN7PILpJCm-347" value="preAuthType=22" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1637.5" y="3330.25" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
