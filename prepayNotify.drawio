@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-15T09:48:20.145Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="N24iLPD6KuEe1ujeEWEo" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-15T10:51:46.070Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="tQ9hGpkgp0UeHUrUXpGP" version="14.8.5" type="github">
   <diagram id="urWVjwSXjhIiqOl-fs-m" name="第 1 页">
-    <mxGraphModel dx="4670" dy="-515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4942" dy="-384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1762,17 +1762,13 @@
         <mxCell id="RYgBorsTauFN7PILpJCm-304" value="信用卡预授权扣违章押金" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="4450" width="265" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RYgBorsTauFN7PILpJCm-310" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-305" target="RYgBorsTauFN7PILpJCm-308">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="RYgBorsTauFN7PILpJCm-310" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-305" target="RYgBorsTauFN7PILpJCm-309">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-538" y="3320.25" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="RYgBorsTauFN7PILpJCm-305" value="扫码信用卡付违章押金&lt;br&gt;preAuthType=21 &amp;amp;&amp;amp; AuthorizedType == 1&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-670.5" y="3218.13" width="265" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RYgBorsTauFN7PILpJCm-311" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-308" target="RYgBorsTauFN7PILpJCm-309">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="RYgBorsTauFN7PILpJCm-308" value="获取供应商回调table(Ord_SDActualOrderInfo)&lt;br&gt;where(orderid,vendorOrderStatus&amp;lt;=3)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-643" y="3320.25" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RYgBorsTauFN7PILpJCm-314" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RYgBorsTauFN7PILpJCm-309" target="RYgBorsTauFN7PILpJCm-313">
           <mxGeometry relative="1" as="geometry" />
